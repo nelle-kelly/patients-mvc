@@ -44,7 +44,7 @@
                       <td th:text="${patient.malade}"></td>
                       <td th:text="${patient.score}"></td>
                       <td >
-                          <a   class="btn btn-danger" th:href="@{delete(id=${patient.id}, keyword=${keyword}, page=${currentPage})}">
+                          <a   class="btn btn-outline-danger" th:href="@{delete(id=${patient.id}, keyword=${keyword}, page=${currentPage})}">
                               Delete
                           </a>
                       </td>
